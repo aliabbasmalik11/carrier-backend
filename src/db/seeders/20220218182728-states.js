@@ -2,242 +2,206 @@
 
 const states = [
   {
-  "name": "Alabama",
-  "abbreviation": "AL"
+    "name": "Alabama",
+    "abbreviation": "AL"
   },
   {
-  "name": "Alaska",
-  "abbreviation": "AK"
+    "name": "Alaska",
+    "abbreviation": "AK"
   },
   {
-  "name": "American Samoa",
-  "abbreviation": "AS"
+    "name": "Arizona",
+    "abbreviation": "AZ"
   },
   {
-  "name": "Arizona",
-  "abbreviation": "AZ"
+    "name": "Arkansas",
+    "abbreviation": "AR"
   },
   {
-  "name": "Arkansas",
-  "abbreviation": "AR"
+    "name": "California",
+    "abbreviation": "CA"
   },
   {
-  "name": "California",
-  "abbreviation": "CA"
+    "name": "Colorado",
+    "abbreviation": "CO"
   },
   {
-  "name": "Colorado",
-  "abbreviation": "CO"
+    "name": "Connecticut",
+    "abbreviation": "CT"
   },
   {
-  "name": "Connecticut",
-  "abbreviation": "CT"
+    "name": "Delaware",
+    "abbreviation": "DE"
   },
   {
-  "name": "Delaware",
-  "abbreviation": "DE"
+    "name": "Florida",
+    "abbreviation": "FL"
   },
   {
-  "name": "District Of Columbia",
-  "abbreviation": "DC"
+    "name": "Georgia",
+    "abbreviation": "GA"
   },
   {
-  "name": "Federated States Of Micronesia",
-  "abbreviation": "FM"
+    "name": "Hawaii",
+    "abbreviation": "HI"
   },
   {
-  "name": "Florida",
-  "abbreviation": "FL"
+    "name": "Idaho",
+    "abbreviation": "ID"
   },
   {
-  "name": "Georgia",
-  "abbreviation": "GA"
+    "name": "Illinois",
+    "abbreviation": "IL"
   },
   {
-  "name": "Guam",
-  "abbreviation": "GU"
+    "name": "Indiana",
+    "abbreviation": "IN"
   },
   {
-  "name": "Hawaii",
-  "abbreviation": "HI"
+    "name": "Iowa",
+    "abbreviation": "IA"
   },
   {
-  "name": "Idaho",
-  "abbreviation": "ID"
+    "name": "Kansas",
+    "abbreviation": "KS"
   },
   {
-  "name": "Illinois",
-  "abbreviation": "IL"
+    "name": "Kentucky",
+    "abbreviation": "KY"
   },
   {
-  "name": "Indiana",
-  "abbreviation": "IN"
+    "name": "Louisiana",
+    "abbreviation": "LA"
   },
   {
-  "name": "Iowa",
-  "abbreviation": "IA"
+    "name": "Maine",
+    "abbreviation": "ME"
   },
   {
-  "name": "Kansas",
-  "abbreviation": "KS"
+    "name": "Maryland",
+    "abbreviation": "MD"
   },
   {
-  "name": "Kentucky",
-  "abbreviation": "KY"
+    "name": "Massachusetts",
+    "abbreviation": "MA"
   },
   {
-  "name": "Louisiana",
-  "abbreviation": "LA"
+    "name": "Michigan",
+    "abbreviation": "MI"
   },
   {
-  "name": "Maine",
-  "abbreviation": "ME"
+    "name": "Minnesota",
+    "abbreviation": "MN"
   },
   {
-  "name": "Marshall Islands",
-  "abbreviation": "MH"
+    "name": "Mississippi",
+    "abbreviation": "MS"
   },
   {
-  "name": "Maryland",
-  "abbreviation": "MD"
+    "name": "Missouri",
+    "abbreviation": "MO"
   },
   {
-  "name": "Massachusetts",
-  "abbreviation": "MA"
+    "name": "Montana",
+    "abbreviation": "MT"
   },
   {
-  "name": "Michigan",
-  "abbreviation": "MI"
+    "name": "Nebraska",
+    "abbreviation": "NE"
   },
   {
-  "name": "Minnesota",
-  "abbreviation": "MN"
+    "name": "Nevada",
+    "abbreviation": "NV"
   },
   {
-  "name": "Mississippi",
-  "abbreviation": "MS"
+    "name": "New Hampshire",
+    "abbreviation": "NH"
   },
   {
-  "name": "Missouri",
-  "abbreviation": "MO"
+    "name": "New Jersey",
+    "abbreviation": "NJ"
   },
   {
-  "name": "Montana",
-  "abbreviation": "MT"
+    "name": "New Mexico",
+    "abbreviation": "NM"
   },
   {
-  "name": "Nebraska",
-  "abbreviation": "NE"
+    "name": "New York",
+    "abbreviation": "NY"
   },
   {
-  "name": "Nevada",
-  "abbreviation": "NV"
+    "name": "North Carolina",
+    "abbreviation": "NC"
   },
   {
-  "name": "New Hampshire",
-  "abbreviation": "NH"
+    "name": "North Dakota",
+    "abbreviation": "ND"
   },
   {
-  "name": "New Jersey",
-  "abbreviation": "NJ"
+    "name": "Ohio",
+    "abbreviation": "OH"
   },
   {
-  "name": "New Mexico",
-  "abbreviation": "NM"
+    "name": "Oklahoma",
+    "abbreviation": "OK"
   },
   {
-  "name": "New York",
-  "abbreviation": "NY"
+    "name": "Oregon",
+    "abbreviation": "OR"
   },
   {
-  "name": "North Carolina",
-  "abbreviation": "NC"
+    "name": "Pennsylvania",
+    "abbreviation": "PA"
   },
   {
-  "name": "North Dakota",
-  "abbreviation": "ND"
+    "name": "Rhode Island",
+    "abbreviation": "RI"
   },
   {
-  "name": "Northern Mariana Islands",
-  "abbreviation": "MP"
+    "name": "South Carolina",
+    "abbreviation": "SC"
   },
   {
-  "name": "Ohio",
-  "abbreviation": "OH"
+    "name": "South Dakota",
+    "abbreviation": "SD"
   },
   {
-  "name": "Oklahoma",
-  "abbreviation": "OK"
+    "name": "Tennessee",
+    "abbreviation": "TN"
   },
   {
-  "name": "Oregon",
-  "abbreviation": "OR"
+    "name": "Texas",
+    "abbreviation": "TX"
   },
   {
-  "name": "Palau",
-  "abbreviation": "PW"
+    "name": "Utah",
+    "abbreviation": "UT"
   },
   {
-  "name": "Pennsylvania",
-  "abbreviation": "PA"
+    "name": "Vermont",
+    "abbreviation": "VT"
   },
   {
-  "name": "Puerto Rico",
-  "abbreviation": "PR"
+    "name": "Virginia",
+    "abbreviation": "VA"
   },
   {
-  "name": "Rhode Island",
-  "abbreviation": "RI"
+    "name": "Washington",
+    "abbreviation": "WA"
   },
   {
-  "name": "South Carolina",
-  "abbreviation": "SC"
+    "name": "West Virginia",
+    "abbreviation": "WV"
   },
   {
-  "name": "South Dakota",
-  "abbreviation": "SD"
+    "name": "Wisconsin",
+    "abbreviation": "WI"
   },
   {
-  "name": "Tennessee",
-  "abbreviation": "TN"
-  },
-  {
-  "name": "Texas",
-  "abbreviation": "TX"
-  },
-  {
-  "name": "Utah",
-  "abbreviation": "UT"
-  },
-  {
-  "name": "Vermont",
-  "abbreviation": "VT"
-  },
-  {
-  "name": "Virgin Islands",
-  "abbreviation": "VI"
-  },
-  {
-  "name": "Virginia",
-  "abbreviation": "VA"
-  },
-  {
-  "name": "Washington",
-  "abbreviation": "WA"
-  },
-  {
-  "name": "West Virginia",
-  "abbreviation": "WV"
-  },
-  {
-  "name": "Wisconsin",
-  "abbreviation": "WI"
-  },
-  {
-  "name": "Wyoming",
-  "abbreviation": "WY"
+    "name": "Wyoming",
+    "abbreviation": "WY"
   }
-  ]
+]
 
 module.exports = {
   async up (queryInterface, Sequelize) {
