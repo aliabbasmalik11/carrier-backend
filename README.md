@@ -9,25 +9,31 @@ npm run install
 
 https://www.postgresql.org/docs/8.0/sql-createuser.html
 
-2. Create local database named `blockchain_metrics_development` like this:
+2. Create local database named `carrier_development` like this:
 
 https://www.postgresql.org/docs/9.0/sql-createdatabase.html
 
-3. Construct local database and update `src/config/db.js` accoringly
+3. Construct local database URL like this (leave password blank for local if necessary):
 
+`postgresql://user:password@127.0.0.1:5432/carrier_development`
 
 #### Add .env file and attributes.
 
 Please check .env.example file for setting the environment variables
 
+#### Create Databe
+```
+npx sequelize-cli db:create
+```
+
 #### Run Migration
 ```
-npm run sequelize:admin:migrate
+npx sequelize-cli db:migrate
 ```
 
 #### Seed Data
 ```
-npm run sequelize:admin:seed:all
+npx sequelize-cli db:seed:all
 ```
 
 #### Run Project
