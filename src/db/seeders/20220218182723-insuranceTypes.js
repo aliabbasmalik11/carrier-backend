@@ -1,9 +1,9 @@
 'use strict';
 
 const insuranceTypes = [
-  {name: 'auto'},
-  {name: 'fire'},
-  {name: 'flood'},
+  {name: 'Auto'},
+  {name: 'Fire'},
+  {name: 'Flood'},
 ]
 
 module.exports = {
