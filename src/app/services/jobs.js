@@ -2,8 +2,8 @@ import cron from 'node-cron';
 
 import { scrapGoogleSheet } from './sheetReader';
 
-scrapGoogleSheet();
+// scrapGoogleSheet();
 
-cron.schedule('* */1 * * *', () => {
-  scrapGoogleSheet();
-});
+// cron.schedule('* */1 * * *', () => {
+//   scrapGoogleSheet();
+// });
